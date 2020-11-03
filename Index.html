@@ -3,86 +3,61 @@
     <head>
         <title>Cá Hồi Hoang | Home page</title>
         <meta name= "description" content= "This is the description">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-            <nav>
+        <header class="main-header">
+            <nav class= "nav main-nav">
                 <ul>
                     <li><a href="Index.html">Trang Chủ</a></li>
                     <li><a href="Store.html">Sản Phẩm</a></li>
                     <li><a href="About.html">Thông Tin</a></li>
                 </ul>
             </nav>
-            <hr>
-            <h1>Cá Hồi Hoang</h1>
-            <button role="button">Mua album của bọn mình đi</button>
-            <br>
-            <br>
-            <!--To-do list: Thêm vào 1 cái background phù hợp-->
-            <button role="button">&#9658</button>
+            <h1 class= "band-name band-name-large">Cá Hồi Hoang</h1>
+            <div class="container">
+                <button role="button" class="btn btn-header">Mua album của bọn mình đi</button>
+            </div>
+            <button role="button" class ="btn btn-header btn-play">&#9658</button>
         </header>
-        <section>
-            <h2>Thông tin tour diễn</h2>
+        <section class="content-section container">
+            <h2 class="section-header">Thông tin tour diễn</h2>
             <div>
-                <div>
-                    <strong>AUG 30</strong>
-                    &nbsp &nbsp
-                    <span>ĐÀ LẠT</span>
-                    &nbsp &nbsp  
-                    <span>BARN HOUSE</span>
-                    &nbsp &nbsp
-                    <button role="button">MUA VÉ</button>
-                    <hr>
+                <div class="tour-row"> 
+                    <span class="tour-item tour-date">AUG 30</span>
+                    <span class="tour-item tour-place">ĐÀ LẠT</span>  
+                    <span class="tour-item tour-arena">BARN HOUSE</span>
+                    <button role="button" class="btn tour-item tour-btn btn-primary">MUA VÉ</button>
                 </div>
-                <div>
-                    <strong>AUG 30</strong>
-                    &nbsp &nbsp
-                    <span>ĐÀ LẠT</span>
-                    &nbsp &nbsp  
-                    <span>BARN HOUSE</span>
-                    &nbsp &nbsp
-                    <button role="button">MUA VÉ</button>
-                    <hr>
+                <div class="tour-row"> 
+                    <span class="tour-item tour-date">AUG 31</span>
+                    <span class="tour-item tour-place">BUÔN MA THUỘT</span>
+                    <span class="tour-item tour-arena">OG PUB</span>
+                    <button role="button" class="btn tour-item tour-btn btn-primary">MUA VÉ</button>
                 </div>
-                <div>
-                    <strong>AUG 31</strong>
-                    &nbsp &nbsp
-                    <span>BUÔN MA THUỘT</span>
-                    &nbsp &nbsp  
-                    <span>OG PUB</span>
-                    &nbsp &nbsp
-                    <button role="button">MUA VÉ</button>
-                    <hr>
+                <div class="tour-row">
+                    <span class="tour-item tour-date">SEP 07</span>
+                    <span class="tour-item tour-place">HÀ NỘI</span>
+                    <span class="tour-item tour-arena">TBA</span>
+                    <button role="button" class="btn tour-item tour-btn btn-primary">MUA VÉ</button>
                 </div>
-                <div>
-                    <strong>SEP 07</strong>
-                    &nbsp &nbsp
-                    <span>HÀ NỘI</span>
-                    &nbsp &nbsp  
-                    <span>TBA</span>
-                    &nbsp &nbsp
-                    <button role="button">MUA VÉ</button>
-                    <hr>
-                </div>
-                <div>
-                    <strong>SEP 13</strong>
-                    &nbsp &nbsp
-                    <span>CẦN THƠ</span>
-                    &nbsp &nbsp  
-                    <span>PHÒNG TRÀ ANH THI</span>
-                    &nbsp &nbsp
-                    <button role="button">MUA VÉ</button>
-                    
+                <div class="tour-row">
+                    <span class="tour-item tour-date">SEP 13</span>
+                    <span class="tour-item tour-place">CẦN THƠ</span>
+                    <span class="tour-item tour-arena">PHÒNG TRÀ ANH THI</span>
+                    <button role="button" class="btn tour-item tour-btn btn-primary">MUA VÉ</button>
                 </div>
             </div>
         </section>
-        <footer>
-            <h3>Cá Hồi Hoang</h3>
-            <ul>
-                <li><a href="https://open.spotify.com/artist/2j3AXmye1FJXoGOXr6tufj" target="_blank"><img src="Images/spotify-logo.webp" alt="#" width="50"></a></li>
-                <li><a href="https://www.youtube.com/channel/UCqJq5x5zDoVQnHqfAILMJmg" target="_blank"><img src="Images/youtube-logo.webp" alt="#" width="50"></a></li>
-                <li><a href="https://www.facebook.com/cahoihoang/" target="_blank"><img src="Images/facbook-logo.webp" alt="#" width="50"></a></li>
-            </ul>
+        <footer class="main-footer">
+            <div class= "container main-footer-container">
+                <h5 class="band-name">Cá Hồi Hoang</h5>
+                <ul class= "nav footer-nav">
+                    <li><a href="https://open.spotify.com/artist/2j3AXmye1FJXoGOXr6tufj" target="_blank"><img src="Images/spotify-logo.webp" alt="#" width="50"></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCqJq5x5zDoVQnHqfAILMJmg" target="_blank"><img src="Images/youtube-logo.webp" alt="#" width="50"></a></li>
+                    <li><a href="https://www.facebook.com/cahoihoang/" target="_blank"><img src="Images/facbook-logo.webp" alt="#" width="50"></a></li>
+                </ul>
+            </div>
         </footer>
     </body>
 </html>
